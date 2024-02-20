@@ -15,9 +15,10 @@ public class Main {
 
             //Girilen sayının çift ve 4'ün katı olması koşulunu sağlayanlar toplanıyor
 
-            if ((k % 2 == 0) && (k % 4 == 0)) {
-                toplam += k;
-            }
+            if (k % 2 == 0)
+                if (k % 4 == 0) {
+                    toplam += k;
+                }
         } while (k % 2 == 0);
         System.out.println("Toplam: " + toplam);
     }
