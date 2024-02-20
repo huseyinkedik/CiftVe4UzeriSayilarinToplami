@@ -5,7 +5,7 @@ public class Main {
         int k;
         int toplam = 0;
 
-        //Kullanıcıdan sayı girilmesi bekleniyor.
+        //Kullanıcıdan sayı girilmesi bekleniyor
 
         Scanner input = new Scanner(System.in);
 
